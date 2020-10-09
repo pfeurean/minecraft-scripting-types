@@ -1,4 +1,4 @@
-/// <reference types="minecraft-scripting-types-shared" />
+/// <reference path="../shared/index.d.ts" />
 /// <reference path="./types/server_component_names.generated.d.ts" />
 /// <reference path="./types/server_component.generated.d.ts" />
 /// <reference path="./types/server_system_components.generated.d.ts" />

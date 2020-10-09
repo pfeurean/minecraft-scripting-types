@@ -1,0 +1,14 @@
+// This file keeps IDEs happy, it is not used for compilation
+{
+    "compilerOptions": {
+        "module": "ES6",
+        "noImplicitAny": true,
+        "rootDir": "./types",
+        "target": "es5"
+    },
+    "references": [
+        { "minecraft-scripting-types-shared": "./shared" },
+        { "minecraft-scripting-types-server": "./server" },
+        { "minecraft-scripting-types-client": "./client" }
+    ]
+}

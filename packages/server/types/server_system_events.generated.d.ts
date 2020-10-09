@@ -13,6 +13,7 @@ declare interface IVanillaServerSystemBase {
      * This event is used to send a chat message from the server to the players. The event data is the message being sent as a string. Special formatting is supported the same way it would be if a player was sending the message.
      */
     createEventData(eventIdentifier: SendToMinecraftServer.DisplayChat): IEventData<IDisplayChatParameters> | null;
+    createEventData(eventIdentifier: SendToMinecraftServer.EntityDefinition) : IEventData<IEntityDefinitionParameters> | null;
     /**
      * This event is used to execute a slash command on the server with the World Owner permission level. The event data contains the slash command as a string. The slash command will be processed and will run after the event is sent.
      */

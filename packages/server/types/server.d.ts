@@ -8,7 +8,7 @@ declare interface IServer {
 declare interface IExecuteCommandCallback {
     command: string;
     data: {
-        message: string;
+        statusMessage: string;
         statusCode: number;
     }
 }
